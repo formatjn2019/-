@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="5">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="横刀立马"-->
+       <!--/>-->
+    <Button
+    android:id="@+id/e"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="1"
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:text="马超" />
+    <Button
+    android:id="@+id/a"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="2"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:text="曹操" />
+    <Button
+    android:id="@+id/f"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="1"
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:text="赵云" />
+    <Button
+    android:id="@+id/d"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="1"
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:text="黄忠" />
+    <Button
+    android:id="@+id/b"
+    android:layout_rowSpan="1"
+    android:layout_columnSpan="2"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:text="关羽" />
+    <Button
+    android:id="@+id/c"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="1"
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:text="张飞" />
+    <Button
+    android:id="@+id/g"
+    android:text="兵"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <Button
+    android:id="@+id/h"
+    android:text="兵"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <Button
+    android:id="@+id/i"
+    android:text="兵"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <Button
+    android:id="@+id/j"
+    android:text="兵"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <Button
+    android:id="@+id/k"
+    android:text="空"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+    <Button
+    android:id="@+id/l"
+    android:text="空"
+    android:layout_width="100dp"
+    android:layout_height="100dp"/>
+
+
+</GridLayout>
